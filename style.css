@@ -1,0 +1,54 @@
+:root {
+    --color-background: #F0F0F7;
+    --color-primary-lighter: #9871F5;
+    --color-primary-light: #916BEA;
+    --color-primary: #8257E5;
+    --color-primary-dark: #774DD6;
+    --color-primary-darker: #6842c2;
+    --color-secondary: #001aff;
+    --color-secondary-dark: #0c00bb;
+}
+
+body {
+    background: var(--color-background);
+}
+
+.content{
+    margin: 30px;
+}
+
+.content header{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content header h1{
+    color: var(--color-primary-darker);
+}
+
+.content header a{
+    text-decoration: none;
+    color: var(--color-primary-darker);
+}
+
+.content .slogan {
+    color: var(--color-secondary-dark);
+}
+
+.content .ODS{
+    text-align: center;
+}
+
+.content .ODS h2{
+    color: var(--color-primary-darker)
+}
+
+.content .ODS h3{
+    color: var(--color-secondary);
+}
+
+.content .ODS p{
+    text-align: initial;
+    color: var(--color-secondary-dark);
+}
